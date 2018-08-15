@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <h1 *ngFor="let hero of heroes">
+    Welcome to {{ hero }}!
+  </h1>
+  <h1 >
+    Welcome to {{ heroes | json}}!
+  </h1>
+<input type="text" [(ngModel)]="name" />
+<h1 >
+  Welcome to {{ name | json}}!
+</h1>
+</div>

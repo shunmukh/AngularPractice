@@ -1,0 +1,13 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+<div>
+  <input type="text" name="text1" [(ngModel)] = "title">
+</div>
+  <h1 *ngIf="!title2">
+    Welcome to {{ getTitle() }}!
+  </h1>
+
+</div>
